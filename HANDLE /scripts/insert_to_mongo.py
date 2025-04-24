@@ -12,14 +12,14 @@ for file in os.listdir(metadata_dir):
         continue
 
     file_path = os.path.join(metadata_dir, file)
-    print(f"Processing: {file}")
+    print(f"📄 Processing: {file}")
 
     try:
         with open(file_path) as f:
             data = json.load(f)
 
         if "file_name" not in data or "path" not in data:
-            print("Missing required fields in:", file)
+            print("⚠️ Missing required fields in:", file)
             continue
 
         doc = {
@@ -40,10 +40,9 @@ for file in os.listdir(metadata_dir):
 
         result = collection.replace_one({"_id": doc["_id"]}, doc, upsert=True)
         if result.upserted_id:
-            print("Inserted:", doc["_id"])
+            print("✅ Inserted:", doc["_id"])
         else:
-            print("Updated:", doc["_id"])
+            print("♻️ Updated:", doc["_id"])
 
     except Exception as e:
-        print(f"Error processing {file}: {e}")
-
+        print(f"❌ Error processing {file}: {e}")
