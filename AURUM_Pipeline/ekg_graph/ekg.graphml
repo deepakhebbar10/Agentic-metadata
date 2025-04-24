@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="node" attr.name="unique_ratio" attr.type="double" />
+  <graph edgedefault="undirected">
+    <node id="amazon.csv.json:product_id">
+      <data key="d0">0.922184300341297</data>
+    </node>
+    <node id="amazon.csv.json:product_name">
+      <data key="d0">0.9126279863481229</data>
+    </node>
+    <node id="amazon.csv.json:category">
+      <data key="d0">0.1440273037542662</data>
+    </node>
+    <node id="amazon.csv.json:discounted_price">
+      <data key="d0">0.37542662116040953</data>
+    </node>
+    <node id="amazon.csv.json:actual_price">
+      <data key="d0">0.30648464163822525</data>
+    </node>
+    <node id="amazon.csv.json:discount_percentage">
+      <data key="d0">0.06279863481228669</data>
+    </node>
+    <node id="amazon.csv.json:rating">
+      <data key="d0">0.01911262798634812</data>
+    </node>
+    <node id="amazon.csv.json:rating_count">
+      <data key="d0">0.7802047781569966</data>
+    </node>
+    <node id="amazon.csv.json:about_product">
+      <data key="d0">0.8825938566552901</data>
+    </node>
+    <node id="amazon.csv.json:user_id">
+      <data key="d0">0.8150170648464163</data>
+    </node>
+    <node id="amazon.csv.json:user_name">
+      <data key="d0">0.8150170648464163</data>
+    </node>
+    <node id="amazon.csv.json:review_id">
+      <data key="d0">0.8150170648464163</data>
+    </node>
+    <node id="amazon.csv.json:review_title">
+      <data key="d0">0.8150170648464163</data>
+    </node>
+    <node id="amazon.csv.json:review_content">
+      <data key="d0">0.8273037542662116</data>
+    </node>
+    <node id="amazon.csv.json:img_link">
+      <data key="d0">0.9638225255972697</data>
+    </node>
+    <node id="amazon.csv.json:product_link">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="sales_summary_report_table_1.csv.json:Home&amp;Kitchen|Heating,Cooling&amp;A...">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="sales_summary_report_table_1.csv.json:$373789.61">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="sales_summary_report_table_1.csv.json:$3222.32">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="sales_summary_report_table_1.csv.json:116">
+      <data key="d0">0.6666666666666666</data>
+    </node>
+    <node id="sales_summary_report_table_0.csv.json:Category">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="sales_summary_report_table_0.csv.json:Total Sales ($)">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="sales_summary_report_table_0.csv.json:Avg Price ($)">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="sales_summary_report_table_0.csv.json:Product Count">
+      <data key="d0">0.625</data>
+    </node>
+    <node id="Invoice_B002PD61Y4.csv.json:Field">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B002PD61Y4.csv.json:Value">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B07JW1Y6XV.csv.json:Field">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B07JW1Y6XV.csv.json:Value">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B01M4GGIVU.csv.json:Field">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B01M4GGIVU.csv.json:Value">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B07JW9H4J1.csv.json:Field">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B07JW9H4J1.csv.json:Value">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B0B4HJNPV4.csv.json:Field">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B0B4HJNPV4.csv.json:Value">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B0B6F7LX4C.csv.json:Field">
+      <data key="d0">1.0</data>
+    </node>
+    <node id="Invoice_B0B6F7LX4C.csv.json:Value">
+      <data key="d0">1.0</data>
+    </node>
+    <edge source="amazon.csv.json:discounted_price" target="amazon.csv.json:actual_price" />
+    <edge source="sales_summary_report_table_1.csv.json:$373789.61" target="sales_summary_report_table_1.csv.json:$3222.32" />
+    <edge source="sales_summary_report_table_1.csv.json:$373789.61" target="Invoice_B01M4GGIVU.csv.json:Value" />
+    <edge source="sales_summary_report_table_1.csv.json:116" target="sales_summary_report_table_0.csv.json:Product Count" />
+    <edge source="sales_summary_report_table_0.csv.json:Category" target="Invoice_B01M4GGIVU.csv.json:Value" />
+    <edge source="sales_summary_report_table_0.csv.json:Category" target="Invoice_B0B6F7LX4C.csv.json:Value" />
+    <edge source="sales_summary_report_table_0.csv.json:Total Sales ($)" target="sales_summary_report_table_0.csv.json:Avg Price ($)" />
+    <edge source="Invoice_B002PD61Y4.csv.json:Field" target="Invoice_B01M4GGIVU.csv.json:Field" />
+    <edge source="Invoice_B002PD61Y4.csv.json:Field" target="Invoice_B0B4HJNPV4.csv.json:Field" />
+    <edge source="Invoice_B002PD61Y4.csv.json:Field" target="Invoice_B0B6F7LX4C.csv.json:Field" />
+    <edge source="Invoice_B002PD61Y4.csv.json:Field" target="Invoice_B07JW1Y6XV.csv.json:Field" />
+    <edge source="Invoice_B002PD61Y4.csv.json:Field" target="Invoice_B07JW9H4J1.csv.json:Field" />
+    <edge source="Invoice_B07JW1Y6XV.csv.json:Field" target="Invoice_B01M4GGIVU.csv.json:Field" />
+    <edge source="Invoice_B07JW1Y6XV.csv.json:Field" target="Invoice_B0B4HJNPV4.csv.json:Field" />
+    <edge source="Invoice_B07JW1Y6XV.csv.json:Field" target="Invoice_B0B6F7LX4C.csv.json:Field" />
+    <edge source="Invoice_B07JW1Y6XV.csv.json:Field" target="Invoice_B07JW9H4J1.csv.json:Field" />
+    <edge source="Invoice_B07JW1Y6XV.csv.json:Value" target="Invoice_B07JW9H4J1.csv.json:Value" />
+    <edge source="Invoice_B01M4GGIVU.csv.json:Field" target="Invoice_B0B4HJNPV4.csv.json:Field" />
+    <edge source="Invoice_B01M4GGIVU.csv.json:Field" target="Invoice_B0B6F7LX4C.csv.json:Field" />
+    <edge source="Invoice_B01M4GGIVU.csv.json:Field" target="Invoice_B07JW9H4J1.csv.json:Field" />
+    <edge source="Invoice_B01M4GGIVU.csv.json:Value" target="Invoice_B0B6F7LX4C.csv.json:Value" />
+    <edge source="Invoice_B07JW9H4J1.csv.json:Field" target="Invoice_B0B4HJNPV4.csv.json:Field" />
+    <edge source="Invoice_B07JW9H4J1.csv.json:Field" target="Invoice_B0B6F7LX4C.csv.json:Field" />
+    <edge source="Invoice_B0B4HJNPV4.csv.json:Field" target="Invoice_B0B6F7LX4C.csv.json:Field" />
+  </graph>
+</graphml>
