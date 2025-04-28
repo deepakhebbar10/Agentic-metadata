@@ -1,0 +1,1762 @@
+﻿[
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1152922604118474752,
+      "start": 0,
+      "end": 3,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1152922604118474752",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "d2": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1161929803373215744,
+      "start": 0,
+      "end": 3,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1161929803373215744",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "d2": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1155174403932160000,
+      "start": 0,
+      "end": 4,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1155174403932160000",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "d2": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1164181603186900992,
+      "start": 0,
+      "end": 4,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1164181603186900992",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "d2": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 1155174403932160003,
+      "start": 3,
+      "end": 4,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1155174403932160003",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "d2": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 1164181603186900995,
+      "start": 3,
+      "end": 4,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1164181603186900995",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "d2": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1157426203745845248,
+      "start": 0,
+      "end": 5,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1157426203745845248",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "d2": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1166433403000586240,
+      "start": 0,
+      "end": 5,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1166433403000586240",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "d2": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 1157426203745845251,
+      "start": 3,
+      "end": 5,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1157426203745845251",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "d2": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 1166433403000586243,
+      "start": 3,
+      "end": 5,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1166433403000586243",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "d2": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    }
+  },
+  {
+    "d1": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "r": {
+      "identity": 1152922604118474756,
+      "start": 4,
+      "end": 5,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1152922604118474756",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "d2": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    }
+  },
+  {
+    "d1": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "r": {
+      "identity": 1159678003559530500,
+      "start": 4,
+      "end": 5,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1159678003559530500",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "d2": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1159678003559530496,
+      "start": 0,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1159678003559530496",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1168685202814271488,
+      "start": 0,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1168685202814271488",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 1159678003559530499,
+      "start": 3,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1159678003559530499",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 1168685202814271491,
+      "start": 3,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1168685202814271491",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "r": {
+      "identity": 1157426203745845252,
+      "start": 4,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1157426203745845252",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "r": {
+      "identity": 1161929803373215748,
+      "start": 4,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1161929803373215748",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "r": {
+      "identity": 1155174403932160005,
+      "start": 5,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1155174403932160005",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "r": {
+      "identity": 1161929803373215749,
+      "start": 5,
+      "end": 6,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1161929803373215749",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "d2": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 1170937002627956736,
+      "start": 0,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1170937002627956736",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 0,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B002PD61Y4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B002PD61Y4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0"
+    },
+    "r": {
+      "identity": 6917530127152709639,
+      "start": 0,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:6917530127152709639",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:0",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 1170937002627956739,
+      "start": 3,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1170937002627956739",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 3,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B01M4GGIVU.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B01M4GGIVU",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3"
+    },
+    "r": {
+      "identity": 6919781926966394887,
+      "start": 3,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:6919781926966394887",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:3",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "r": {
+      "identity": 1166433403000586244,
+      "start": 4,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1166433403000586244",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 4,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW1Y6XV.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW1Y6XV",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4"
+    },
+    "r": {
+      "identity": 6922033726780080135,
+      "start": 4,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:6922033726780080135",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:4",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "r": {
+      "identity": 1164181603186900997,
+      "start": 5,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1164181603186900997",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 5,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B07JW9H4J1.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B07JW9H4J1",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5"
+    },
+    "r": {
+      "identity": 6924285526593765383,
+      "start": 5,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:6924285526593765383",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:5",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "r": {
+      "identity": 1152922604118474758,
+      "start": 6,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Field"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1152922604118474758",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 6,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B4HJNPV4.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B4HJNPV4",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6"
+    },
+    "r": {
+      "identity": 1164181603186900998,
+      "start": 6,
+      "end": 7,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "Value"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1164181603186900998",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:6",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    },
+    "d2": {
+      "identity": 7,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B6F7LX4C.csv",
+        "meta": "{\"num_rows\": 8, \"num_columns\": 2, \"columns\": [\"Field\", \"Value\"], \"semantic_summary\": {\"Categorical\": 2}}",
+        "name": "Invoice_B0B6F7LX4C",
+        "type": "csv"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:7"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1152922604118474760,
+      "start": 8,
+      "end": 19,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_1"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1152922604118474760",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:19"
+    },
+    "d2": {
+      "identity": 19,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B1YVCJ2Y.pdf",
+        "meta": "{\"num_pages\": 1, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 1}}",
+        "name": "Invoice_B0B1YVCJ2Y",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:19"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 6917530127152709652,
+      "start": 8,
+      "end": 20,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_1"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:6917530127152709652",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:20"
+    },
+    "d2": {
+      "identity": 20,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B3MMYHYW.pdf",
+        "meta": "{\"num_pages\": 1, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 1}}",
+        "name": "Invoice_B0B3MMYHYW",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:20"
+    }
+  },
+  {
+    "d1": {
+      "identity": 19,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B1YVCJ2Y.pdf",
+        "meta": "{\"num_pages\": 1, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 1}}",
+        "name": "Invoice_B0B1YVCJ2Y",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:19"
+    },
+    "r": {
+      "identity": 1155174403932160019,
+      "start": 19,
+      "end": 20,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_1"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1155174403932160019",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:19",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:20"
+    },
+    "d2": {
+      "identity": 20,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B3MMYHYW.pdf",
+        "meta": "{\"num_pages\": 1, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 1}}",
+        "name": "Invoice_B0B3MMYHYW",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:20"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1155174403932160008,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_2"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1155174403932160008",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1157426203745845256,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_3"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1157426203745845256",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1159678003559530504,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_4"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1159678003559530504",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1161929803373215752,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_5"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1161929803373215752",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1164181603186901000,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_6"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1164181603186901000",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1166433403000586248,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_7"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1166433403000586248",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1168685202814271496,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_8"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1168685202814271496",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 1170937002627956744,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_9"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1170937002627956744",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 8,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Customer_Reviews.pdf",
+        "meta": "{\"num_pages\": 10, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 10}}",
+        "name": "Customer_Reviews",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8"
+    },
+    "r": {
+      "identity": 6917530127152709653,
+      "start": 8,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_1"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:6917530127152709653",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:8",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 19,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B1YVCJ2Y.pdf",
+        "meta": "{\"num_pages\": 1, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 1}}",
+        "name": "Invoice_B0B1YVCJ2Y",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:19"
+    },
+    "r": {
+      "identity": 1157426203745845267,
+      "start": 19,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_1"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1157426203745845267",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:19",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  },
+  {
+    "d1": {
+      "identity": 20,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Invoice_B0B3MMYHYW.pdf",
+        "meta": "{\"num_pages\": 1, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 1}}",
+        "name": "Invoice_B0B3MMYHYW",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:20"
+    },
+    "r": {
+      "identity": 1157426203745845268,
+      "start": 20,
+      "end": 21,
+      "type": "SHARES_ATTRIBUTE",
+      "properties": {
+        "attribute": "page_1"
+      },
+      "elementId": "5:40201717-550e-4ada-af17-ab4361ebf671:1157426203745845268",
+      "startNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:20",
+      "endNodeElementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    },
+    "d2": {
+      "identity": 21,
+      "labels": [
+        "Dataset"
+      ],
+      "properties": {
+        "path": "C:/Users/deepa/Desktop/Minor Project Meta Data Agent/data/all2\Product_Catalog.pdf",
+        "meta": "{\"num_pages\": 9, \"title\": null, \"author\": null, \"semantic_summary\": {\"Categorical\": 9}}",
+        "name": "Product_Catalog",
+        "type": "pdf"
+      },
+      "elementId": "4:40201717-550e-4ada-af17-ab4361ebf671:21"
+    }
+  }
+]
