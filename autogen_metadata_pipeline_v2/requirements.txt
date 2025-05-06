@@ -1,0 +1,4 @@
+pyautogen>=0.2.19
+psycopg2-binary
+PyMuPDF
+ollama

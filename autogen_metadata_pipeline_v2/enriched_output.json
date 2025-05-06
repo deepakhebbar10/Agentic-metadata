@@ -1,0 +1,268 @@
+[
+  {
+    "file": "Invoice_B0B6F7LX4C.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214842",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B6F7LX4C\nCustomer: Manoj maddheshiya,Manoj Kumar Sahoo,Saumil s.,Jean-Louis M.,Mahesh,syed azhar abbas,p\nProduct: MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN (Black)\nCategory: Electronics|HomeTheater,TV&Vid...\nOriginal Price: $24999.00\nDiscounted Price: $13999.00\nDiscount: 44%\nProduct Link: https://www.amazon.in/MI-inches-Ready-Android-L32M7-5AIN/dp/B0B6F7LX4C/ref=sr_1_18\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='**Description:**\\n\\nThis PDF document is an Amazon purchase invoice (Invoice ID: B0B6F7LX4C) for a MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV (Black).  The invoice details a discounted price of $13999.00 (originally $24999.00), representing a 44% discount. The customer\\'s name appears to be a list of individuals, suggesting a potential group purchase or error.  The invoice includes a product link to the item on Amazon.in.  The document was created using PyFPDF.\\n\\n\\n**Semantic Category:**  Invoice, Purchase Receipt, Transactional Data, Product Details\\n\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`**:  \"Amazon Invoice B0B6F7LX4C\"  (or a similar descriptive title)\\n* **`doc_meta.author`**: \"Amazon\"\\n* **`doc_meta.subject`**: \"Purchase Invoice for MI 32-inch Smart TV\"\\n* **`doc_meta.keywords`**: \"Amazon, Invoice, Purchase, MI, TV, LED, Smart TV, Electronics, B0B6F7LX4C\"\\n* **`doc_meta.creator`**: \"Amazon Systems\" (or similar, depending on the Amazon system used to generate the invoice)\\n* **`doc_meta.modDate`**:  This should reflect the date the invoice was last modified.  It\\'s likely the same as `creationDate` unless modifications were made after generation.\\n* **`doc_meta.trapped`**:  Likely \"False\" (assuming no color profiles were embedded that require special handling)\\n* **Customer Name**: The customer name field is ambiguous.  Ideally, the invoice would clarify the actual purchaser\\'s name.  Additional customer information (address, contact details) is also missing.\\n* **Invoice Date**: While the creation date is given, a specific invoice date should be included for clarity.\\n* **Seller Information**:  The invoice lacks complete seller details (beyond Amazon).  A seller address or tax ID would be expected on a formal invoice.\\n* **Tax Information**:  Sales tax, VAT, or other applicable taxes are absent.\\n\\n\\nThe suggested missing values aim to improve the completeness and searchability of the metadata.  Note that filling in some missing values (e.g., customer details) requires access to additional data beyond what\\'s provided in the metadata.\\n' usage=RequestUsage(prompt_tokens=363, completion_tokens=533) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Invoice_B0B1YVCJ2Y.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214842",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B1YVCJ2Y\nCustomer: Ayush,ROHIT A.,Kedar,Haran,Santosh Ghante,KRISHNENDU,Harindra,sangamesh\nProduct: Acer 80 cm (32 inches) I Series HD Ready Android Smart LED TV AR32AR2841HDFL (Black)\nCategory: Electronics|HomeTheater,TV&Vid...\nOriginal Price: $19990.00\nDiscounted Price: $11499.00\nDiscount: 42%\nProduct Link: https://www.amazon.in/Acer-inches-Ready-Android-AR32AR2841HDFL/dp/B0B1YVCJ2Y/ref\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='**Description:**\\n\\nThis PDF document is an Amazon purchase invoice (Invoice ID: B0B1YVCJ2Y) for an Acer 80 cm (32 inches) I Series HD Ready Android Smart LED TV (model AR32AR2841HDFL). The invoice shows a discounted price of $11499.00 (originally $19990.00), representing a 42% discount. The customer is listed as multiple individuals: Ayush, ROHIT A., Kedar, Haran, Santosh Ghante, KRISHNENDU, Harindra, and sangamesh.  The invoice was generated on February 19, 2025, using PyFPDF software.\\n\\n\\n**Semantic Category:**  Invoice/Transaction Data;  Product Details; Price\\n\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`:**  \"Amazon Invoice B0B1YVCJ2Y\" (or similar descriptive title)\\n* **`doc_meta.author`:** \"Amazon\"\\n* **`doc_meta.subject`:** \"Purchase Invoice for Acer LED TV\"\\n* **`doc_meta.keywords`:** \"Amazon, invoice, Acer, LED TV, purchase, B0B1YVCJ2Y, electronics\"\\n* **`doc_meta.creator`:**  \"Amazon Systems\" (or a more specific Amazon system if known)\\n* **`doc_meta.modDate`:** The date the invoice was last modified (likely the same as creationDate unless it was edited later).\\n* **`doc_meta.trapped`:**  \"False\" (Assuming the document\\'s images are not trapped)\\n* **Customer Address:** The invoice is missing the full address for the customer.  This is a significant missing piece of information.\\n* **Shipping Information:**  The invoice lacks shipping address and potentially tracking information.\\n* **Tax Information:** Sales tax, GST or other applicable taxes are absent.\\n* **Payment Method:** The method of payment used (credit card, debit card, etc.) is not specified.\\n* **Quantity:** The quantity of the LED TV purchased isn\\'t explicitly stated (assumed to be one).\\n\\n\\nAdding the suggested missing values would significantly improve the document\\'s metadata and searchability.  The missing customer address and other transactional details are crucial for practical usage of the invoice data.\\n' usage=RequestUsage(prompt_tokens=355, completion_tokens=510) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Invoice_B0B4HJNPV4.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214842",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B4HJNPV4\nCustomer: Placeholder,PK,Gauri salkar,aQeel,Ashish Raj Arora,Ankit,Amazon Customer,Ramamoorthy Ja\nProduct: pTron Solero T351 3.5Amps Fast Charging Type-C to Type-C PD Data & Charging USB Cable, M\nCategory: Computers&Accessories|Accessor...\nOriginal Price: $999.00\nDiscounted Price: $199.00\nDiscount: 80%\nProduct Link: https://www.amazon.in/pTron-3-5Amps-Charging-480Mbps-Smartphones/dp/B0B4HJNPV4/r\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='**Description:**\\n\\nThis document is an Amazon purchase invoice (PDF format) for a pTron Solero T351 USB-C cable.  The invoice ID is B0B4HJNPV4. The invoice details a purchase from Amazon with a significant discount (80%) applied, reducing the price from $999.00 to $199.00. The customer\\'s name appears to be a list of multiple names possibly related to a shared account or a group purchase. The invoice includes a product link to the item on Amazon.\\n\\n\\n**Semantic Category:** Invoice, Transaction Data, Purchase Details, Product Details\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`:**  \"Amazon Invoice B0B4HJNPV4\" or \"pTron Solero T351 Invoice\"\\n* **`doc_meta.author`:** \"Amazon\"\\n* **`doc_meta.subject`:** \"Purchase Invoice for pTron Solero T351 USB-C Cable\"\\n* **`doc_meta.keywords`:** \"Amazon, Invoice, pTron, Solero T351, USB-C Cable, Purchase, B0B4HJNPV4\"\\n* **`doc_meta.creator`:** \"Amazon\" or \"PyFPDF\" (depending on whether Amazon generated the PDF directly or used PyFPDF)\\n* **`doc_meta.modDate`:**  The date the invoice was last modified (likely the same as `creationDate` unless edits were made).\\n* **`doc_meta.trapped`:**  \"False\" (assuming the PDF doesn\\'t have trapped elements)\\n* **Customer Name:** The customer name field is messy and likely needs to be cleaned to reflect a single customer or a clearer indication of multiple customers.  Ideally, a properly formatted name or account ID should be present.\\n* **Shipping Information:** The invoice lacks crucial information like shipping address, billing address, and potentially the date of purchase, which are typically included on invoices.\\n* **Tax Information:**  There\\'s no mention of tax applied to the purchase.  A tax amount and rate should ideally be present.\\n* **Payment Method:**  The method of payment used (e.g., Credit Card, Gift Card) is missing.\\n\\n\\nBy filling in these missing values, the metadata would be significantly more informative and useful for data analysis and retrieval.\\n' usage=RequestUsage(prompt_tokens=345, completion_tokens=512) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Invoice_B0B3MMYHYW.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214843",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B3MMYHYW\nCustomer: Abhishek Kumar,Arun prasath,Naveen,Harmit,Placeholder,Precision Engineering,Senthil Kuma\nProduct: OnePlus 126 cm (50 inches) Y Series 4K Ultra HD Smart Android LED TV 50Y1S Pro (Black)\nCategory: Electronics|HomeTheater,TV&Vid...\nOriginal Price: $45999.00\nDiscounted Price: $32999.00\nDiscount: 28%\nProduct Link: https://www.amazon.in/OnePlus-50-inches-Android-Pro/dp/B0B3MMYHYW/ref=sr_1_42?qid=\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='This document is an **Amazon Purchase Invoice (PDF)** for a OnePlus 50Y1S Pro 50-inch Smart TV.  The semantic category is **Invoice/Transaction Data**.  It details a purchase made by multiple individuals (Abhishek Kumar, Arun prasath, Naveen, Harmit, Placeholder, Precision Engineering, Senthil Kuma) with a significant discount applied.\\n\\n**Description:**  The PDF invoice (Invoice ID: B0B3MMYHYW) shows the purchase of a OnePlus 126 cm (50 inches) Y Series 4K Ultra HD Smart Android LED TV (model 50Y1S Pro, Black) from Amazon. The original price was $45999.00, discounted to $32999.00 (a 28% discount).  The invoice includes a product link to the Amazon listing.  The invoice was generated by PyFPDF on February 19, 2025.\\n\\n**Missing Values:**\\n\\n* **`doc_meta.title`:** Should be \"Amazon Purchase Invoice B0B3MMYHYW\" or similar.\\n* **`doc_meta.author`:**  Should indicate Amazon or the system that generated the invoice.\\n* **`doc_meta.subject`:** Could be \"Invoice for OnePlus TV Purchase\".\\n* **`doc_meta.keywords`:** Could include \"Amazon, Invoice, OnePlus, TV, Purchase, Electronics\".\\n* **`doc_meta.creator`:**  This should specify the software used to create the invoice, ideally more precisely than just the producer.\\n* **`doc_meta.modDate`:** This field should contain the last modified date of the invoice.\\n* **`doc_meta.trapped`:**  Likely to be \"False\" if there are no trapped images in the PDF.  Could be omitted if unimportant.\\n\\n\\nThe \"Placeholder\" in the customer names suggests a potential issue with data entry or a placeholder for a missing customer name.  This should be clarified.\\n' usage=RequestUsage(prompt_tokens=347, completion_tokens=435) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Product_Catalog.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214843",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Product Catalog\nProduct: Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible f\nCategory: Computers&Accessories|Accessor...\nDescription: High Compatibility : Compatible With iPhone 12, 11, X/XsMax/Xr ,iPhone 8/8 Plus,iPhone 7/7\nPlus,iPhone 6s/6s Plus,iPhone 6/6 Plus,iPhone 5/5s/5c/se,iPad Pro,iPad Air 1/2,iPad mini 1/2/3,iPod\nnano7,iPod touch and more apple devices.|Fast Charge&Data Sync : It can charge and sync simultaneously\nat a rapid speed, Compatible with any charging adaptor, multi-port charging station or power bank.|Durability\n: Durable nylon braided design with premium aluminum housing and toughened nylon fiber wound tightly\naround the cord lending it superior durability and adding a bit to its flexibility.|High Security Level : It is\ndesigned to fully protect your device from damaging excessive current.Copper core thick+Multilayer shielding,\nAnti-interference, Protective circuit equipment.|WARRANTY: 12 months warranty and friendly customer",
+    "description": "finish_reason='stop' content='This metadata describes a PDF file named \"Product_Catalog.pdf\" containing information about a Wayona Nylon Braided USB to Lightning cable.  The semantic category is **Product Details**.\\n\\n**Meaningful Description:**\\n\\nThe document is a product catalog entry (in PDF format) for a Wayona-brand USB-to-Lightning cable. The cable is described as nylon braided, fast-charging, and data-synchronizing, compatible with a wide range of Apple devices.  Key features highlighted include its durability (nylon braided design with aluminum housing), high security (protection against excessive current), and a 12-month warranty.  The document\\'s excerpt reveals details about compatibility, charging speed, and build quality.\\n\\n**Missing Values and Suggestions:**\\n\\nThe metadata is missing several crucial pieces of information:\\n\\n* **`doc_meta.title`**:  Should be set to something descriptive, like \"Wayona Nylon Braided USB to Lightning Cable Product Catalog Entry\" or a similar, concise title.\\n* **`doc_meta.author`**: Should reflect the author or creator of the product catalog entry (e.g., \"Amazon\", \"Wayona\", or the name of the person who compiled the catalog).\\n* **`doc_meta.subject`**:  Could be \"Product Catalog\", \"Electronics\", \"Computer Accessories\", or a combination thereof.\\n* **`doc_meta.keywords`**:  Should contain relevant keywords for search purposes, such as \"USB cable\", \"Lightning cable\", \"Wayona\", \"nylon braided\", \"fast charging\", \"Apple compatible\", \"iPhone\", \"iPad\".\\n* **`doc_meta.creator`**: While the producer is listed, the *creator* of the PDF document itself (e.g., Adobe Acrobat, a specific software) is missing.  This is distinct from the producer.\\n* **`doc_meta.modDate`**: The last modification date of the document is absent.\\n\\n\\nAdding these missing values would significantly improve the metadata\\'s searchability and overall usefulness.\\n' usage=RequestUsage(prompt_tokens=408, completion_tokens=422) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "sales_summary_report.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219215316",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Sales Summary Report\nCategory\nTotal Sales ($)\nAvg Price ($)\nProduct Count\nCar&Motorbike|CarAccessories|I...\n$2339.00\n$2339.00\n1\nComputers&Accessories|Accessor...\n$185200.62\n$486.09\n381\nComputers&Accessories|Componen...\n$8822.00\n$1764.40\n5\nComputers&Accessories|External...\n$38725.00\n$2151.39\n18\nComputers&Accessories|Laptops|...\n$37247.00\n$37247.00\n1\nComputers&Accessories|Monitors\n$16398.00\n$8199.00\n2\nComputers&Accessories|Networki...\n$37688.00\n$1108.47\n34\nComputers&Accessories|Printers...\n$30641.00\n$2785.55\n11\nComputers&Accessories|Tablets\n$26999.00\n$26999.00\n1\nElectronics|Accessories|Memory...\n$11366.00\n$811.86\n14\nElectronics|Cameras&Photograph...\n$20352.00\n$1272.00\n16\nElectronics|GeneralPurposeBatt...\n$5377.00\n$384.07\n14\nElectronics|Headphones,Earbuds...\n$62576.00\n$948.12\n66\nElectronics|HomeAudio|Accessor...\n$558.00\n$279.00\n2\nElectronics|HomeAudio|MediaStr...\n$4699.00\n$4699.00\n1\nElectronics|HomeAudio|Speakers...\n$19487.00\n$1499.00\n13\nElectronics|HomeTheater,TV&Vid...\n$1685954.0",
+    "description": "[\\'title\\']`**:  A descriptive title such as \"Amazon Sales Summary Report - February 19, 2025\" would be beneficial.\\n* **`doc_meta[\\'author\\']`**: The name of the person or system that generated the report should be included.\\n* **`doc_meta[\\'subject\\']`**: A subject line like \"Amazon Sales Performance\" would provide context.\\n* **`doc_meta[\\'keywords\\']`**: Keywords such as \"Amazon,\" \"Sales,\" \"Report,\" \"Product Categories,\" \"Revenue\" would improve searchability.\\n* **`doc_meta[\\'creator\\']`**:  This should ideally match the producer information.\\n* **`doc_meta[\\'modDate\\']`**: The last modification date is missing.\\n* **`doc_meta[\\'trapped\\']",
+    "category": "unknown"
+  },
+  {
+    "file": "Customer_Reviews.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214843",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Customer Reviews\nCustomer: Manav,Adarsh gupta,Sundeep,S.Sayeed Ahmed,jaspreet singh,Khaja moin,Anand,S.ARU\nProduct: Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12\nReview Title: Satisfied,Charging is really fast,Value for money,Product review,Good quality,Good product,Good Prod\nReview: Looks durable Charging is fine tooNo complains,Charging is really fast, good product.,Till now\nsatisfied with the quality.,This is a good product . The charging speed is slower than the original iPhone\ncable,Good \nquality, \nwould\nrecommend,https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/81---F1ZgHL._SY88.jpg,Pr\noduct had worked well till date and was having no issue.Cable is also sturdy enough...Have asked for\nreplacement and company is doing the same...,Value for money\nCustomer: ArdKn,Nirbhay kumar,Sagar Viswanathan,Asp,Placeholder,BharanI,sonia,Niam\nProduct: Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Type C Cable for S",
+    "description": "finish_reason='stop' content='This metadata describes a PDF file named \"Customer_Reviews.pdf\" containing Amazon customer reviews.  The semantic category is **Review Data**.  The file\\'s contents include customer names, the product reviewed (two different USB charging cables are mentioned), review titles, and excerpts of the reviews themselves.  The metadata also includes technical details about the PDF file\\'s creation, such as the producer (PyFPDF).\\n\\n\\n**Missing Values and Suggestions:**\\n\\nSeveral fields within the `doc_meta` section are missing crucial information:\\n\\n* **`title`:**  A descriptive title should be added, for example: \"Amazon Customer Reviews - Wayona and Ambrane USB Charging Cables\".\\n* **`author`:**  This should reflect who compiled the reviews.  If it\\'s automatically generated, it could be \"Automated Report\".\\n* **`subject`:**  This could be \"Customer Reviews of USB Charging Cables\".\\n* **`keywords`:**  Relevant keywords would be: \"Amazon, Customer Reviews, USB Cable, Charging Cable, Wayona, Ambrane, iPhone, Type-C, Review, Product Review\".\\n* **`modDate`:** The last modification date of the PDF should be added.\\n\\n\\nIn addition to filling the missing `doc_meta` values, the `first_pages_text` snippet is truncated.  The complete text of the reviews would be beneficial for a thorough analysis.  The metadata also doesn\\'t specify the number of reviews included in the PDF.\\n' usage=RequestUsage(prompt_tokens=457, completion_tokens=309) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Invoice_B0B6F7LX4C.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214842",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B6F7LX4C\nCustomer: Manoj maddheshiya,Manoj Kumar Sahoo,Saumil s.,Jean-Louis M.,Mahesh,syed azhar abbas,p\nProduct: MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN (Black)\nCategory: Electronics|HomeTheater,TV&Vid...\nOriginal Price: $24999.00\nDiscounted Price: $13999.00\nDiscount: 44%\nProduct Link: https://www.amazon.in/MI-inches-Ready-Android-L32M7-5AIN/dp/B0B6F7LX4C/ref=sr_1_18\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='**Description:**\\n\\nThis PDF document is an Amazon purchase invoice (Invoice ID: B0B6F7LX4C) for a MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV (Black), with product link https://www.amazon.in/MI-inches-Ready-Android-L32M7-5AIN/dp/B0B6F7LX4C/ref=sr_1_18.  The invoice details a discounted price of $13999.00 (originally $24999.00), representing a 44% discount.  The customer names listed are Manoj maddheshiya, Manoj Kumar Sahoo, Saumil s., Jean-Louis M., Mahesh, and syed azhar abbas.  The invoice was created using PyFPDF on February 19, 2025.\\n\\n\\n**Semantic Category:**  Invoice, Purchase Receipt, Transactional Data, Product Details\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`:** \"Amazon Invoice B0B6F7LX4C\" or \"MI LED TV Purchase Invoice\"\\n* **`doc_meta.author`:** \"Amazon\"\\n* **`doc_meta.subject`:** \"Purchase Invoice for MI 32 inch LED TV\"\\n* **`doc_meta.keywords`:** \"Amazon, Invoice, MI, LED TV, Purchase, B0B6F7LX4C, Electronics\"\\n* **`doc_meta.creator`:** \"Amazon Systems\" (or similar, depending on the actual source)\\n* **`doc_meta.modDate`:**  This would likely be the same as creationDate unless the invoice was modified later.  If unknown, leave blank.\\n* **`doc_meta.trapped`:**  \"False\" (assuming no trapped fonts)  This field requires more information about the PDF\u2019s creation process.\\n* **Additional Data:** The invoice is missing crucial information like shipping address, billing address, tax details, and potentially a total amount including tax.  These would be highly valuable additions.  Also, the customer names appear to be a comma-separated list without clear indication of which name corresponds to the billing address etc.  Clarifying this would improve the data.\\n\\nThe suggested missing values aim to enrich the metadata and make the document more easily searchable and understandable by both humans and machines.\\n' usage=RequestUsage(prompt_tokens=363, completion_tokens=519) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Invoice_B0B1YVCJ2Y.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214842",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B1YVCJ2Y\nCustomer: Ayush,ROHIT A.,Kedar,Haran,Santosh Ghante,KRISHNENDU,Harindra,sangamesh\nProduct: Acer 80 cm (32 inches) I Series HD Ready Android Smart LED TV AR32AR2841HDFL (Black)\nCategory: Electronics|HomeTheater,TV&Vid...\nOriginal Price: $19990.00\nDiscounted Price: $11499.00\nDiscount: 42%\nProduct Link: https://www.amazon.in/Acer-inches-Ready-Android-AR32AR2841HDFL/dp/B0B1YVCJ2Y/ref\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='**Description:**\\n\\nThis PDF document is an Amazon purchase invoice (Invoice ID: B0B1YVCJ2Y) for an Acer 80 cm (32 inches) I Series HD Ready Android Smart LED TV (model AR32AR2841HDFL).  The invoice lists multiple customers (Ayush, ROHIT A., Kedar, Haran, Santosh Ghante, KRISHNENDU, Harindra, sangamesh) and details the product\\'s original price ($19990.00), discounted price ($11499.00), and a 42% discount.  The invoice includes a link to the product on Amazon.in.  The document was created using PyFPDF.\\n\\n**Semantic Category:** Invoice, Purchase Receipt, Transactional Data, Product Details\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`**:  \"Amazon Invoice B0B1YVCJ2Y\"  or  \"Acer TV Purchase Invoice\"\\n* **`doc_meta.author`**: \"Amazon\"\\n* **`doc_meta.subject`**: \"Purchase Invoice for Acer TV\"\\n* **`doc_meta.keywords`**: \"Amazon, Invoice, Acer, TV, LED, Purchase, Electronics, B0B1YVCJ2Y\"\\n* **`doc_meta.creator`**:  While the producer is PyFPDF, the *creator* of the invoice *content* is Amazon.  Therefore, \"Amazon\" would be appropriate here.\\n* **`doc_meta.modDate`**:  This would require additional information not present in the provided metadata, but ideally would reflect the last time the invoice was modified (likely the same as creationDate in this case).\\n* **`doc_meta.trapped`**:  This field is usually related to image embedding and trapping in PDFs. It\\'s best to leave this as blank or \"False\" unless there\\'s information specifying the presence of trapped images.  Adding a default value would be inaccurate.\\n\\n\\nThe improved metadata would provide a much richer description and better searchability for this document.\\n' usage=RequestUsage(prompt_tokens=355, completion_tokens=453) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Invoice_B0B4HJNPV4.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214842",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B4HJNPV4\nCustomer: Placeholder,PK,Gauri salkar,aQeel,Ashish Raj Arora,Ankit,Amazon Customer,Ramamoorthy Ja\nProduct: pTron Solero T351 3.5Amps Fast Charging Type-C to Type-C PD Data & Charging USB Cable, M\nCategory: Computers&Accessories|Accessor...\nOriginal Price: $999.00\nDiscounted Price: $199.00\nDiscount: 80%\nProduct Link: https://www.amazon.in/pTron-3-5Amps-Charging-480Mbps-Smartphones/dp/B0B4HJNPV4/r\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='**Description:**\\n\\nThis metadata describes a PDF invoice (Invoice_B0B4HJNPV4.pdf) generated by PyFPDF for an Amazon purchase.  The invoice details a purchase of a pTron Solero T351 USB-C cable, showing an original price of $999.00, a discounted price of $199.00 (an 80% discount), and a product link to the item on Amazon.in. The customer\\'s name appears to be a placeholder, followed by multiple names possibly representing multiple recipients or an error.\\n\\n\\n**Semantic Category:** Invoice Data / Transactional Data / Purchase Details\\n\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`**:  Should be \"Amazon Invoice B0B4HJNPV4\" or similar.  A descriptive title is crucial for searchability and organization.\\n* **`doc_meta.author`**:  Should be \"Amazon\" or the name of the entity generating the invoice.\\n* **`doc_meta.subject`**: \"Amazon Purchase Invoice\" or \"Invoice for pTron Solero T351 Cable\".  This adds context.\\n* **`doc_meta.keywords`**: \"Amazon, Invoice, pTron, USB-C Cable, B0B4HJNPV4, Purchase, Transaction\".  Keywords improve searchability.\\n* **`doc_meta.creator`**:  While \"PyFPDF\" is listed under producer, explicitly stating the creator of the invoice (e.g., \"Amazon Systems\") would be beneficial.\\n* **`doc_meta.modDate`**:  The last modification date of the PDF should be added for version control and audit trails.\\n* **`doc_meta.trapped`**: Should specify whether the document contains trapped elements (relevant for printing).  If unknown, \"Unknown\" is acceptable.\\n* **Customer Name:** The customer name field is clearly erroneous. It requires correction or clarification.  Perhaps extracting the customer\\'s name from other parts of the invoice would be beneficial.  This could potentially require Optical Character Recognition (OCR) if the invoice is scanned.\\n* **Shipping Information:**  The invoice lacks shipping details (address, shipping cost, etc.), which is standard for an invoice.\\n* **Tax Information:**  Any applicable sales tax or other taxes are missing.\\n* **Payment Method:**  The method of payment (credit card, debit card, etc.) is also missing.\\n\\n\\nBy filling in these missing values, the metadata becomes far more comprehensive and useful for indexing, searching, and analysis.\\n' usage=RequestUsage(prompt_tokens=345, completion_tokens=545) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Invoice_B0B3MMYHYW.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214843",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Purchase Invoice\nInvoice ID: B0B3MMYHYW\nCustomer: Abhishek Kumar,Arun prasath,Naveen,Harmit,Placeholder,Precision Engineering,Senthil Kuma\nProduct: OnePlus 126 cm (50 inches) Y Series 4K Ultra HD Smart Android LED TV 50Y1S Pro (Black)\nCategory: Electronics|HomeTheater,TV&Vid...\nOriginal Price: $45999.00\nDiscounted Price: $32999.00\nDiscount: 28%\nProduct Link: https://www.amazon.in/OnePlus-50-inches-Android-Pro/dp/B0B3MMYHYW/ref=sr_1_42?qid=\nThank you for shopping with Amazon!\n",
+    "description": "finish_reason='stop' content='**Description:**\\n\\nThis document is an Amazon purchase invoice (PDF format) for a OnePlus 50-inch Smart TV (model 50Y1S Pro). The invoice details include the invoice ID (B0B3MMYHYW), customer names (Abhishek Kumar, Arun prasath, Naveen, Harmit, Placeholder, Precision Engineering, Senthil Kuma), product information, original and discounted prices ($45999.00 and $32999.00 respectively), a 28% discount, and a product link.  The invoice was generated by PyFPDF software.\\n\\n\\n**Semantic Category:** Invoice, Purchase Order, Transactional Data, Product Details\\n\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`**:  \"Amazon Purchase Invoice B0B3MMYHYW\"  (A descriptive title reflecting the content)\\n* **`doc_meta.author`**: \"Amazon\" (or leave blank if not applicable)\\n* **`doc_meta.subject`**: \"Purchase Invoice for OnePlus 50Y1S Pro TV\" (A concise subject description)\\n* **`doc_meta.keywords`**: \"Amazon, Invoice, OnePlus, Smart TV, 50Y1S Pro, B0B3MMYHYW, Purchase, Electronics\" (Relevant keywords for searchability)\\n* **`doc_meta.creator`**: \"Amazon\" (or leave blank if not applicable.  The producer indicates the PDF generation tool, not necessarily the creator of the invoice data.)\\n* **`doc_meta.modDate`**:  This should reflect the last modification date of the PDF file, if available.  If not available, it could be left blank or populated with the creation date if they are the same.\\n* **`doc_meta.trapped`**:  \"False\" (or \"True\" if applicable, indicating whether the document\\'s fonts are embedded).\\n* **Customer Address:** The invoice lacks the customer\\'s address, a crucial component of any official invoice.  This should be added.\\n* **Billing Address:**  Similarly, the billing address is missing.\\n* **Tax Information:**  Sales tax information is absent.  This would be important for accounting purposes.\\n* **Shipping Information:** Details of shipping, like address and method, are not included.\\n* **Payment Method:**  How the purchase was paid for (credit card, etc.) is missing.\\n* **Quantity:** The quantity of TVs purchased is not explicitly stated, it\\'s implied to be at least one.  Adding this explicitly would improve clarity.\\n\\n\\nAdding these missing values would significantly improve the completeness and usability of the metadata.\\n' usage=RequestUsage(prompt_tokens=347, completion_tokens=570) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Product_Catalog.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214843",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Product Catalog\nProduct: Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible f\nCategory: Computers&Accessories|Accessor...\nDescription: High Compatibility : Compatible With iPhone 12, 11, X/XsMax/Xr ,iPhone 8/8 Plus,iPhone 7/7\nPlus,iPhone 6s/6s Plus,iPhone 6/6 Plus,iPhone 5/5s/5c/se,iPad Pro,iPad Air 1/2,iPad mini 1/2/3,iPod\nnano7,iPod touch and more apple devices.|Fast Charge&Data Sync : It can charge and sync simultaneously\nat a rapid speed, Compatible with any charging adaptor, multi-port charging station or power bank.|Durability\n: Durable nylon braided design with premium aluminum housing and toughened nylon fiber wound tightly\naround the cord lending it superior durability and adding a bit to its flexibility.|High Security Level : It is\ndesigned to fully protect your device from damaging excessive current.Copper core thick+Multilayer shielding,\nAnti-interference, Protective circuit equipment.|WARRANTY: 12 months warranty and friendly customer",
+    "description": "finish_reason='stop' content='**Meaningful Description:**\\n\\nThis PDF document, \"Product_Catalog.pdf,\" is a product listing for a Wayona Nylon Braided USB to Lightning cable.  The cable is advertised as compatible with a wide range of Apple devices, offering fast charging and data syncing capabilities.  It features a durable nylon braided design with an aluminum housing, promising superior durability and flexibility.  The description highlights its high compatibility, fast charging/syncing, durability, and built-in safety features to protect against excessive current.  A 12-month warranty is included.\\n\\n\\n**Semantic Category:** Product Details\\n\\n\\n**Missing Values and Suggestions:**\\n\\nThe metadata is significantly lacking crucial commercial information.  Here\\'s a list of missing values and suggestions:\\n\\n* **`doc_meta.title`:**  \"Wayona Nylon Braided USB-C to Lightning Cable Product Listing\" or similar.  A clear and concise title reflecting the product.\\n* **`doc_meta.author`:**  The name of the company or individual responsible for creating the catalog (e.g., \"Wayona,\" \"Amazon,\" or the name of the retailer).\\n* **`doc_meta.subject`:** \"Electronics Accessories,\" \"USB Cables,\" or \"Apple Device Accessories.\"  A subject categorization for easier searching and organization.\\n* **`doc_meta.keywords`:** \"Wayona, USB-C, Lightning Cable, iPhone Cable, iPad Cable, Fast Charging, Nylon Braided, Durable Cable, Apple Accessories, Data Sync.\"  Keywords to improve searchability.\\n* **`doc_meta.creator`:**  The software used to create the PDF (if different from the producer).  This might be an editing program.\\n* **`doc_meta.modDate`:** The date the document was last modified.  This would be beneficial for version control.\\n* **Crucial missing data not in metadata:**  The most significant omissions are pricing information (e.g., MSRP, discounts),  the product SKU or ID, and images (which are not in the metadata at all).  This information is essential for any real product catalog.  The current information is only a partial description suitable for a brief summary.\\n\\n\\nAdding this missing information would greatly enhance the metadata\\'s usefulness and searchability.\\n' usage=RequestUsage(prompt_tokens=408, completion_tokens=473) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "sales_summary_report.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219215316",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Sales Summary Report\nCategory\nTotal Sales ($)\nAvg Price ($)\nProduct Count\nCar&Motorbike|CarAccessories|I...\n$2339.00\n$2339.00\n1\nComputers&Accessories|Accessor...\n$185200.62\n$486.09\n381\nComputers&Accessories|Componen...\n$8822.00\n$1764.40\n5\nComputers&Accessories|External...\n$38725.00\n$2151.39\n18\nComputers&Accessories|Laptops|...\n$37247.00\n$37247.00\n1\nComputers&Accessories|Monitors\n$16398.00\n$8199.00\n2\nComputers&Accessories|Networki...\n$37688.00\n$1108.47\n34\nComputers&Accessories|Printers...\n$30641.00\n$2785.55\n11\nComputers&Accessories|Tablets\n$26999.00\n$26999.00\n1\nElectronics|Accessories|Memory...\n$11366.00\n$811.86\n14\nElectronics|Cameras&Photograph...\n$20352.00\n$1272.00\n16\nElectronics|GeneralPurposeBatt...\n$5377.00\n$384.07\n14\nElectronics|Headphones,Earbuds...\n$62576.00\n$948.12\n66\nElectronics|HomeAudio|Accessor...\n$558.00\n$279.00\n2\nElectronics|HomeAudio|MediaStr...\n$4699.00\n$4699.00\n1\nElectronics|HomeAudio|Speakers...\n$19487.00\n$1499.00\n13\nElectronics|HomeTheater,TV&Vid...\n$1685954.0",
+    "description": "finish_reason='stop' content='This PDF file, `sales_summary_report.pdf`, is a sales report summarizing Amazon sales data.  The semantic category is **Sales Data**.  It provides a breakdown of total sales, average price, and product count for various product categories.\\n\\n**Description:**\\n\\nThe report details Amazon sales figures, categorized by product type (e.g., Car Accessories, Laptops, Headphones). For each category, it lists the total sales in dollars, the average price per product, and the number of products sold. The data suggests a significant portion of sales comes from Computers & Accessories and Electronics categories, particularly within the Home Theater, TV & Video segment, which shows exceptionally high sales.\\n\\n\\n**Missing Values:**\\n\\nThe metadata is incomplete. Several fields within `doc_meta` lack essential information:\\n\\n* **title:** The report is missing a title,  e.g., \"Amazon Sales Summary Report - February 19, 2025\".\\n* **author:** The author or creator of the report is missing.  This could be a person\\'s name or a department name.\\n* **subject:**  A subject field would help with categorization, e.g., \"Sales Performance,\" \"Amazon Sales Data.\"\\n* **keywords:** Relevant keywords are missing. Examples could be \"Amazon Sales\", \"Sales Report\", \"Product Performance\", \"Category Analysis\".\\n\\n\\nThe `first_pages_text` is truncated. The complete sales figures for \"Electronics|HomeTheater,TV&Vid...\" are missing.  The `modDate` field is also empty and should indicate the last modification date.\\n\\n**Suggested Improvements:**\\n\\nTo make the metadata more informative, the missing values above should be populated.  Additionally, the truncated text in `first_pages_text` should be completed.  It is important to note that filling in missing values requires accessing the full content of the PDF document.\\n' usage=RequestUsage(prompt_tokens=720, completion_tokens=389) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  },
+  {
+    "file": "Customer_Reviews.pdf",
+    "doc_meta": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "PyFPDF 1.7.2 http://pyfpdf.googlecode.com/",
+      "creationDate": "D:20250219214843",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "first_pages_text": "Amazon Customer Reviews\nCustomer: Manav,Adarsh gupta,Sundeep,S.Sayeed Ahmed,jaspreet singh,Khaja moin,Anand,S.ARU\nProduct: Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for iPhone 13, 12\nReview Title: Satisfied,Charging is really fast,Value for money,Product review,Good quality,Good product,Good Prod\nReview: Looks durable Charging is fine tooNo complains,Charging is really fast, good product.,Till now\nsatisfied with the quality.,This is a good product . The charging speed is slower than the original iPhone\ncable,Good \nquality, \nwould\nrecommend,https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/81---F1ZgHL._SY88.jpg,Pr\noduct had worked well till date and was having no issue.Cable is also sturdy enough...Have asked for\nreplacement and company is doing the same...,Value for money\nCustomer: ArdKn,Nirbhay kumar,Sagar Viswanathan,Asp,Placeholder,BharanI,sonia,Niam\nProduct: Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Type C Cable for S",
+    "description": "finish_reason='stop' content='This metadata describes a PDF file (\"Customer_Reviews.pdf\") containing customer reviews for USB charging cables.  The semantic category is **Review Data**.  The file contains customer names, product names (Wayona and Ambrane USB cables), review titles, and snippets of the reviews themselves.  It also includes image URLs (partially visible in the `first_pages_text`).  The metadata indicates the PDF was created using PyFPDF.\\n\\n\\n**Missing Values and Suggestions:**\\n\\n* **`doc_meta.title`**:  A suitable title would be \"Customer Reviews for Wayona and Ambrane USB Charging Cables\" or similar, reflecting the contained data.\\n* **`doc_meta.author`**:  This would likely be the person or system that compiled the reviews into the PDF.  If unknown, it could be left blank or marked as \"Unknown\".\\n* **`doc_meta.subject`**: \"Customer feedback on USB charging cables\" or \"Product reviews for Wayona and Ambrane cables\".\\n* **`doc_meta.keywords`**: \"customer review, USB cable, charging cable, Wayona, Ambrane, iPhone, Type-C, product review, feedback\".\\n* **`doc_meta.modDate`**: The last date the PDF was modified. This is missing and would require access to the file system to determine.\\n\\n\\n**Meaningful Description:**\\n\\nThis PDF document, \"Customer_Reviews.pdf,\" compiles customer reviews for Wayona and Ambrane brand USB charging cables.  The reviews include comments on charging speed, durability, and overall value, along with customer names and associated product information. The document was created using PyFPDF and contains partially visible image URLs associated with the product. The data provides valuable insight into customer satisfaction and feedback regarding these specific charging cables.\\n' usage=RequestUsage(prompt_tokens=457, completion_tokens=373) cached=False logprobs=None thought=None",
+    "category": "unknown"
+  }
+]
