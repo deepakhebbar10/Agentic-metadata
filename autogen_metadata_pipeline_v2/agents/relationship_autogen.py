@@ -18,7 +18,7 @@ from autogen_ext.models.openai import OpenAIChatCompletionClient
 # (api_type="google" is implied by model name “gemini-*” in recent pyautogen)
 client = OpenAIChatCompletionClient(
     model="gemini-1.5-flash",
-    api_key="AIzaSyCMYKN9GbBtPfuo03mteeqw8HLAIV5rGc0",             # ⚠️ replace or pull from env
+    api_key="",             # ⚠️ replace or pull from env
 )
 
 # -----------------------------------------------------------------------------

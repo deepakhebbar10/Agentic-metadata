@@ -9,7 +9,7 @@ from autogen_core.models import UserMessage       # <- NEW import
 # ────────────  TOOL FUNCTIONS ────────────
 from typing import List, Dict, Any
 from autogen_ext.models.openai import OpenAIChatCompletionClient  # works for any api_type
-client = OpenAIChatCompletionClient(model="gemini-1.5-flash", api_key="AIzaSyCMYKN9GbBtPfuo03mteeqw8HLAIV5rGc0")  # <- NEW
+client = OpenAIChatCompletionClient(model="gemini-1.5-flash", api_key="")  # <- NEW
 def load_discovery() -> List[Dict[str, Any]]:
     """Read discovery_output.json and return its list."""
     with open("discovery_output.json") as f:
@@ -100,7 +100,7 @@ def store_enriched(payload: List[Dict[str, Any]]) -> str:
     return "✅ enriched_output.json saved"
 
 # ──────────── AGENT ────────────
-model = OpenAIChatCompletionClient(model="gemini-1.5-flash",api_key="AIzaSyCMYKN9GbBtPfuo03mteeqw8HLAIV5rGc0")
+model = OpenAIChatCompletionClient(model="gemini-1.5-flash",api_key="")
 enrichment_agent = AssistantAgent(
     "enricher",
     system_message="You add .",
