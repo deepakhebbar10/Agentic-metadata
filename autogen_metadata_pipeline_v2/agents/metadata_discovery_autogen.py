@@ -47,7 +47,7 @@ def store_metadata(payload: Dict) -> str:
     return "✅ discovery_output.json written"
 
 # ────────────  AGENT  ────────────
-model = OpenAIChatCompletionClient(model="gemini-1.5-flash",api_key="AIzaSyCMYKN9GbBtPfuo03mteeqw8HLAIV5rGc0")
+model = OpenAIChatCompletionClient(model="gemini-1.5-flash",api_key="")
 discovery_agent = AssistantAgent(
     name="discoverer",
     system_message="Analyse metadata from  PDFs and Postgres and give insights in json format", 
