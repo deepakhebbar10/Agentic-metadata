@@ -1,0 +1,79 @@
+[
+  {
+    "file_name": "Customer_Reviews.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:40+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Customer_Reviews.pdf",
+    "insights": " It appears that the provided text contains reviews for various electronic products such as cables, TVs, and earphones from brands like Xiaomi, LG, Boat, and Ambrane. The reviewers have shared their opinions on factors such as quality, durability, performance, value for money, compatibility, sound and video quality, and ease of installation.\n\nFor instance, one reviewer mentioned that the Ambrane Unbreakable 60W Type C cable is a good quality product with extra length and fast charging support but had an issue with a brand new cable not working, which they attributed to quality issues by the distributor. Another reviewer praised the Boat Type C cable for its excellent charging, data transfer, and durability but pointed out that it doesn't support fast charging on some specific mobile models like Oppo F15.\n\nReviews for TVs also include comments about picture quality, video performance, sound quality, OS lags, and value for money. For example, one reviewer mentioned that the LG 32LM563BPTC has good video and picture quality but had a poor speaker setup with no clear sound. Another reviewer appreciated the affordable price of an unspecified LG TV and its easy installation features.\n\nOverall, the text contains both positive and negative feedback on various aspects of these electronic products, providing valuable insights for potential customers when making purchasing decisions."
+  },
+  {
+    "file_name": "Invoice_B002PD61Y4.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:44+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B002PD61Y4.pdf",
+    "insights": "1. The document is an Amazon purchase invoice, specifically for a D-Link DWA-131 300 Mbps Wireless Nano USB Adapter (Black).\n\n2. The invoice number is B002PD61Y4.\n\n3. Multiple customers have made this purchase: Nilesh, Eagle, Manoj KNS, Titus P., Paras singla, Arun, Ankur Awasthi, and Balasundharam B. It's unclear if they are individual buyers or part of a group or organization.\n\n4. The product belongs to the category 'Computers & Accessories > Networking'.\n\n5. The original price of the product was $1208.00, but due to a 58% discount, the final price paid was reduced to $507.00.\n\n6. The link provided for the product is https://www.amazon.in/D-Link-DWA-131-Wireless-Adapter-Black/dp/B002PD61Y4/ref=sr_1_50?qid=1672909126&s=electronics&sr=1-50, which can be used to locate the product on Amazon's website.\n\n7. The transaction was made through Amazon, and the recipient is thanked for their shopping experience with the company."
+  },
+  {
+    "file_name": "Invoice_B01M4GGIVU.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:43+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B01M4GGIVU.pdf",
+    "insights": "1. The document is an Amazon purchase invoice, specifically for a Tizum High Speed HDMI Cable with Ethernet.\n\n2. The product supports 3D 4K and can be used with various devices including laptops, gaming consoles, TVs, and set top boxes.\n\n3. The product falls under the categories of Electronics, HomeTheater, TV & Video.\n\n4. The original price of the product is $699.00, but it has been discounted to $199.00, representing a discount of 72%.\n\n5. The invoice includes multiple customers: Yashpreet Singh, Abiram, Aakaash Ramchandani, Amit katoch, Avijit Basak, Anirban B., Dass, Gopalakrishnan, implying a group purchase or bulk order.\n\n6. The product can be found at the provided link: https://www.amazon.in/TIZUM-Slim-1-5m-HDMI-Cable/dp/B01M4GGIVU/ref=sr_1_27?qid=1672909125&s=electronics&sr=1-27.\n\n7. The document concludes with a thank you note for shopping with Amazon."
+  },
+  {
+    "file_name": "Invoice_B07JW1Y6XV.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:44+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B07JW1Y6XV.pdf",
+    "insights": " Key Insights:\n\n1. The purchase invoice is for an item identified as \"Wayona Nylon Braided 3A Lightning to USB A Syncing and Fast Charging Data Cable for iPhone, Ipad (3 FT Pack of 1, Black)\", from the category of Computers & Accessories on Amazon.\n\n2. The invoice number is B07JW1Y6XV.\n\n3. The customer making the purchase consists of seven individuals: Manav Adarsh Gupta, Sundeep, S.Sayeed Ahmed, jaspreet singh, Khaja moin, Anand, and S.ARUMUGAM. It is unclear whether this represents multiple purchasers or if these names belong to one individual with a unique name structure.\n\n4. The original price of the product was $1099.00, but a discount of 64% brings the final price down to $399.00. This indicates that the customer received a significant price reduction on their purchase.\n\n5. The product link for further information or purchase can be found at https://www.amazon.in/Wayona-Braided-WN3LB1-Syncing-Charging/dp/B07JW1Y6XV/ref=sr_1_46?qid=1672909125&s=electronics&sr=1-46.\n\n6. The transaction was processed through Amazon, and the customer is thanked for their shopping experience with the company."
+  },
+  {
+    "file_name": "Invoice_B07JW9H4J1.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:44+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B07JW9H4J1.pdf",
+    "insights": "1. The given content appears to be an Amazon purchase invoice for a USB to Lightning charging and data sync cable, specifically the Wayona Nylon Braided USB to Lightning Fast Charging and Data Sync Cable Compatible for various Apple devices like iPhone 13, 12, 11, X, 8, 7, 6, 5, iPad Air, Pro, Mini.\n\n2. The invoice number is B07JW9H4J1.\n\n3. The product was purchased by multiple customers: Manav Adarsh Gupta, Sundeep, S.Sayeed Ahmed, jaspreet singh, Khaja moin, Anand, S.ARUMUGAM. It is unclear if they made separate purchases or shared one order.\n\n4. The product falls under the 'Computers & Accessories' category and subcategory 'Accessories'.\n\n5. The original price of the product was $1099.00, but a discount of 64% has been applied, bringing the final purchase price to $399.00.\n\n6. The product link provided is https://www.amazon.in/Wayona-Braided-WN3LG1-Syncing-Charging/dp/B07JW9H4J1/ref=sr_1_1?qid=1672909124&s=electronics&sr=1-1\n\n7. The purchase was made through Amazon."
+  },
+  {
+    "file_name": "Invoice_B0B1YVCJ2Y.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:41+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B0B1YVCJ2Y.pdf",
+    "insights": "1. The document is an Amazon purchase invoice for a 32-inch Acer Smart LED TV (AR32AR2841HDFL, black).\n\n2. The customer who made the purchase is listed as Ayush, Rohit A., Kedar, Haran, Santosh Ghante, Krishnendu, Harindra, and Sangamesh. It appears that multiple individuals may have shared this purchase.\n\n3. The product belongs to the Electronics|HomeTheater,TV&Video category.\n\n4. The original price of the product was $19990.00, but a 42% discount has been applied, bringing the final price down to $11499.00.\n\n5. The product link for further information or purchase is provided: https://www.amazon.in/Acer-inches-Ready-Android-AR32AR2841HDFL/dp/B0B1YVCJ2Y/ref=sr_1_26?qid=1672909125&s=electronics&sr=1-26\n\n6. The invoice number is B0B1YVCJ2Y.\n\n7. The purchase was made from Amazon."
+  },
+  {
+    "file_name": "Invoice_B0B3MMYHYW.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:41+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B0B3MMYHYW.pdf",
+    "insights": " Based on the provided invoice, here are some key insights:\n\n1. The purchase was made from Amazon by five customers (Abhishek Kumar, Arun prasath, Naveen, Harmit, Senthil Kumar B, Sasikumar madurai) collectively, under the business name Precision Engineering.\n\n2. The product purchased is a OnePlus 126 cm (50 inches) Y Series 4K Ultra HD Smart Android LED TV 50Y1S Pro in black color. This falls under the Electronics|HomeTheater,TV&Video category on Amazon.\n\n3. The original price of the product was $45999.00, but it was discounted by 28%, resulting in a final purchase price of $32999.00.\n\n4. The product link provided is: https://www.amazon.in/OnePlus-50-inches-Android-Pro/dp/B0B3MMYHYW/ref=sr_1_42?qid=1672909125&s=electronics&sr=1-42\n\n5. The transaction took place on Amazon's platform, and the customers were thanked for their shopping with Amazon."
+  },
+  {
+    "file_name": "Invoice_B0B4HJNPV4.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:42+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B0B4HJNPV4.pdf",
+    "insights": " Based on the provided content, here are the key insights:\n\n1. The document is an Amazon purchase invoice with the unique ID B0B4HJNPV4.\n\n2. The customer who made the purchase is Gauri Salkar (or a placeholder for the actual name) from Pakistan, along with several other names (Ashish Raj Arora, Ankit, Ramamoorthy Jaykumar), possibly representing different individuals or entities associated with the purchase. They are all listed as Amazon customers.\n\n3. The product purchased is pTron Solero T351 3.5Amps Fast Charging Type-C to Type-C PD Data & Charging USB Cable, made in India. This cable is suitable for Type-C smartphones, tablets, and laptops and offers a data sync speed of 480Mbps.\n\n4. The product falls under the category of Computers & Accessories on Amazon.\n\n5. The original price of the product was $999.00, but it has been significantly discounted to $199.00, representing a massive 80% discount.\n\n6. The product can be found and purchased at this link: https://www.amazon.in/pTron-3-5Amps-Charging-480Mbps-Smartphones/dp/B0B4HJNPV4/ref=sr_1_38?qid=1672909125&s=electronics&sr=1-38\n\n7. The document concludes with a standard thank you note for shopping with Amazon."
+  },
+  {
+    "file_name": "Invoice_B0B6F7LX4C.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:42+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Invoice_B0B6F7LX4C.pdf",
+    "insights": "1. The document is an Amazon purchase invoice for a TV product, specifically the MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN in black color.\n\n2. The customer who made this purchase is one of eight individuals: Manoj maddheshiya, Manoj Kumar Sahoo, Saumil s., Jean-Louis M., Mahesh, syed azhar abbas, prabakaran, and Sidhu. It's unclear whether they are multiple names for a single customer or separate individuals who collectively made the purchase.\n\n3. The product falls under the category of Electronics|HomeTheater,TV&Video.\n\n4. The original price of the product was $24999.00, but a 44% discount has been applied, resulting in a final, discounted price of $13999.00.\n\n5. The invoice provides a link to the product on Amazon's website for further reference: https://www.amazon.in/MI-inches-Ready-Android-L32M7-5AIN/dp/B0B6F7LX4C/ref=sr_1_18?qid=1672909124&s=electronics&sr=1-18.\n\n6. The invoice number for this transaction is B0B6F7LX4C.\n\n7. The document concludes with a standard phrase thanking the customer for shopping with Amazon."
+  },
+  {
+    "file_name": "Product_Catalog.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:45+00:00",
+    "s3_uri": "s3://datalake-ai-agents/Product_Catalog.pdf",
+    "insights": " Here's a summary of the products you listed:\n\n1. Electronics (LED TVs, Smartphones):\n   - MI 80 cm (32 inches) 5A Series HD Ready Smart Android LED TV L32M7-5AIN (Black) with 1 year warranty\n   - LG 80 cm (32 inches) HD Ready Smart LED TV 32LM563BPTC (Dark Iron Gray) with 1 year warranty and additional 1 year on panel/module\n\n2. Accessories for Electronics:\n   - Ambrane Unbreakable 60W / 3A Fast Charging Type C to Type C Cables in different lengths and colors with 6 months warranty\n   - boAt Type C A325 Tangle-free, Sturdy Type C Cable with 3A Rapid Charging & 480mbps Data Transmission (Black) with 2 years warranty\n   - MI Braided USB Type-C Cable for Charging Adapter (Red) with 6 months warranty\n   - Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Micro USB to Type C Cable for smartphones, tablets, laptops & other devices with 6 months warranty\n   - boAt Type C A325 Tangle-free, Sturdy Type C Cable with 3A Rapid Charging & 480mbps Data Transmission (White) with 2 years warranty\n   - Ambrane Unbreakable 60W / 3A Fast Charging 1.5m Braided Micro USB to Type C Cable for smartphones, tablets, laptops & other devices (White) with 6 months warranty\n   - MI Braided USB Type-C Cable for Charging Adapter (White) with 6 months warranty\n\n3. Home Theater Systems:\n   - MI Braided USB Type-C Cable for Chromecast (Black) with 6 months warranty\n\n4. Other Accessories:\n   - Portronics POR-759 Tonic Pro Wireless Earbuds (Blue and Black) with 1 year manufacturer warranty\n   - Portronics POR-802 Harmonize Portable Bluetooth Speaker (Black and Blue) with 1 year manufacturer warranty\n   - Portronics POR-871 Soundcast 2.1 Channel Multimedia Speakers with Subwoofer (Black) with 1 year manufacturer warranty\n   - Portronics POR-869 Soundcast 5.0 Channel Multimedia Speakers (White) with 1 year manufacturer warranty\n   - Portronics POR-779 Harmonize Pro Headphones (Blue and Black) with 1 year manufacturer warranty\n\nNote: Some of the products are repeated because they have different colors or variations. Always double-check the specifications and warranty before purchasing."
+  },
+  {
+    "file_name": "sales_summary_report.pdf",
+    "content_type": "application/pdf",
+    "last_modified": "2025-05-05 07:17:45+00:00",
+    "s3_uri": "s3://datalake-ai-agents/sales_summary_report.pdf",
+    "insights": " The provided data is an Amazon Sales Summary Report, broken down by category, sub-category, average price, and product count for each item sold within a certain timeframe. Here are the key insights:\n\n1. Electronics is the top-selling category in terms of total sales ($1,685,954,000), followed by Home & Kitchen ($670,320,161) and Computers & Accessories ($188,028,628).\n\n2. The Electronics category has the highest product count (666 items). Notably, Home Theater, TV & Video and Mobiles & Accessories have a high number of sales and a large variety of products (162 and 161 items, respectively).\n\n3. Some sub-categories under Electronics, such as HomeAudio, HomeTheater, TV & Video, and Wearable Technology, have significantly higher average prices compared to others. For example, HomeTheater, TV & Video has an average price of $10,407.12, while Memory Accessories and General-Purpose Batteries have an average price of around $800.\n\n4. Other notable categories with relatively high average prices are CarAccessories ($2,339.00), Computers & Accessories components ($1,764.40), Kitchen & Home Appliances ($2,153.08), and Health & Personal Care (HomeMedicine) ($899.00).\n\n5. Some categories, such as Page 1's Home&Kitchen | CraftMaterials and OfficeProducts have fewer items, but still manage to generate considerable sales. For instance, CraftMaterials has a total sales of $2,131.00 despite having only 7 items.\n\nOverall, this report shows that Electronics is the most popular category on Amazon and offers a wide variety of high-value products, particularly in HomeTheater, TV & Video and Wearable Technology. Additionally, it suggests opportunities for growing sales by expanding product offerings within categories like CraftMaterials and OfficeProducts."
+  }
+]
