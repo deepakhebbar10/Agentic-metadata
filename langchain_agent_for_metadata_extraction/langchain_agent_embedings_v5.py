@@ -247,47 +247,106 @@ class MetadataEnrichmentAgent(BaseAgent):
 
 # ── Relationship Discovery (unchanged) ─────────────────────────────────────────
 class RelationshipDiscoveryAgent(BaseAgent):
-    def fetch_enriched(self):
-        with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
-            cur.execute("SELECT source, enriched_description FROM metadata_langchain_enriched;")
-            return cur.fetchall()
-
-    def discover_relationships(self):
+    def __init__(self, use_gemini=False):
+        super().__init__(use_gemini=use_gemini)
         with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
             cur.execute("""
-                CREATE TABLE IF NOT EXISTS metadata_langchain_relationships(
+                CREATE TABLE IF NOT EXISTS metadata_langchain_relationships (
                     id SERIAL PRIMARY KEY,
                     source TEXT UNIQUE,
                     relationships JSONB
                 );
             """)
-            conn.commit()
 
+    def fetch_enriched(self):
+        with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
+            cur.execute("SELECT source, enriched_description FROM metadata_langchain_enriched;")
+            return cur.fetchall()
+
+    def discover_relationships(self) -> dict:
+        all_entries  = self.fetch_enriched()
         relationships = {}
-        for src, desc in self.fetch_enriched():
-            prompt = (
-                f"You are an AI assistant analyzing metadata relationships.\n"
-                f"Given the metadata field `{src}` with enriched description:\n\n"
-                f"\"{desc}\"\n\n"
-                f"Explain its relationship with other metadata fields."
-            )
+
+        with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
+            cur.execute("SELECT source FROM metadata_langchain_relationships;")
+            done = {r[0] for r in cur.fetchall()}
+
+        for src, desc in all_entries:
+            if src in done:
+                continue
+
+            others = [
+                f"- `{o_src}`: \"{o_desc}\""
+                for o_src, o_desc in all_entries if o_src != src
+            ]
+            others_block = "\n".join(others)
+
+            prompt = f"""
+You are a metadata-analysis AI.
+
+The target field is `{src}`, with the enriched description:
+
+\"\"\"{desc}\"\"\"
+
+Below are other fields (with their file or DB names):
+
+{others_block}
+
+Please:
+1. Determine which of these fields are related to `{src}`.
+2. For each related field, state the file or database where it appears.
+3. In brief describe the nature of the relationship based on the content of the fields.
+   (e.g., same product, similar price range, related product to same comapny, shared discount pattern).
+
+
+Note:it should not give relationship because it belongs to amazon invoices there should be actual relationship present like
+ same customer is there in 2 invoice or they the invoices have the same product being bought etc.
+ then the relationship should be established 
+
+Example of how the relationship should be:
+Scenario:invoice112 file and invoice114 file have the same product  MI Usb Type-C Cable Smartphone.
+description should be like Shares the product MI Usb Type-C Cable Smartphone.
+   Both files identify the same product.
+ 
+Example of how the relationship should not be:Shares the characteristic of analyzing Amazon purchase invoices. 
+   Both identify key information like product name, prices, discounts, and customer details.
+
+the above scenario are just examples and not the actual relationship. so you should form similar 
+relationships the relationship need not be just on product it can be on the same customer name 
+or same discount pattern etc.
+
+Return valid JSON where each key is a related field name, and its value 
+is an object with:
+- "file": the source file or database 
+- "relationship":  description 
+"""
+
             raw = self.analyze(prompt)
             try:
                 rel_map = json.loads(raw)
-            except:
-                rel_map = {"text": raw}
-            relationships[src] = rel_map
+            except json.JSONDecodeError:
+                rel_map = {"_text": raw}
 
             with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
                 cur.execute(
                     "INSERT INTO metadata_langchain_relationships(source,relationships) "
-                    "VALUES (%s,%s) ON CONFLICT(source) DO NOTHING;",
+                    "VALUES (%s,%s) ON CONFLICT DO NOTHING;",
                     (src, json.dumps(rel_map))
                 )
                 conn.commit()
 
-        with open("metadata_langchain_relationships.json","w") as f:
-            json.dump(relationships, f, indent=4)
+            relationships[src] = rel_map
+
+        # --- merge into metadata_langchain_relationships.json ---
+        existing = {}
+        if os.path.exists("metadata_langchain_relationships.json"):
+            with open("metadata_langchain_relationships.json") as f:
+                existing = json.load(f)
+        old = {k: v for k, v in existing.items()}
+        old.update(relationships)
+        with open("metadata_langchain_relationships.json", "w") as f:
+            json.dump(old, f, indent=4)
+
         return relationships
 
 # ── Main orchestration ─────────────────────────────────────────────────────────
