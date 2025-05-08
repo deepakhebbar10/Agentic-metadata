@@ -28,8 +28,6 @@ def main():
         )
         
         print("\nWorkflow completed successfully!")
-       # print(f"Discovered {len(results['discovered_metadata'])} files")
-       # print(f"Found {len(results['relationships']['relationships'])} relationships")
         
     except Exception as e:
         print(f"\nWorkflow failed: {str(e)}")

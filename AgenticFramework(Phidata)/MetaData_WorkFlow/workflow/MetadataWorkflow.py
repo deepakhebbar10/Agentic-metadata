@@ -1,10 +1,13 @@
 from phi.workflow import Workflow
 from typing import Optional
 from pydantic import Field
+import sys
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent))
 from Agents.MetaDataDiscoveryAgent import MetaDataDiscoveryAgent
 from Agents.MetaDataEnrichmentAgent import MetaDataEnrichmentAgent
 from Agents.MetaDataRelationshipAgent import MetaDataRelationshipAgent
-
+from globals import NEW_FILES_FOUND
 class MetadataWorkflow(Workflow):
     discovery_agent: Optional[MetaDataDiscoveryAgent] = Field(default=None, exclude=True)
     enrichment_agent: Optional[MetaDataEnrichmentAgent] = Field(default=None, exclude=True)
@@ -23,18 +26,16 @@ class MetadataWorkflow(Workflow):
     def run(self, bucket_name: str, prefix: str = ''):
         # Step 1: Discover metadata
         print("Starting metadata discovery...")
-        discovered_metadata = self.discovery_agent.run(bucket_name, prefix)
+        self.discovery_agent.run_agent(bucket_name, prefix)
+
         
         # Step 2: Enrich metadata
         print("Enriching metadata...")
-        enriched_metadata = self.enrichment_agent.run()
-        
+        self.enrichment_agent.run_agent("metadata_discovery.json", "metadata_enriched.json")
+
         # Step 3: Find relationships
-        print("Finding metadata relationships...")
-        relationships = self.relationship_agent.run()
+        print("Finding metadata relationships...") 
+        self.relationship_agent.run_agent("metadata_enriched.json","metadata_relationships.json")
+        print("Metadata relationships analysis completed.")
+        print("Workflow Completed")
         
-        return {
-            "discovered_metadata": discovered_metadata,
-            "enriched_metadata": enriched_metadata,
-            "relationships": relationships
-        }
