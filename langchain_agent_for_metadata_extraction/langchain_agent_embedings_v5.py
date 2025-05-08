@@ -299,14 +299,19 @@ Please:
    (e.g., same product, similar price range, related product to same comapny, shared discount pattern).
 
 
-Note:it should not give relationship because it belongs to amazon invoices there should be actual relationship present like
- same customer is there in 2 invoice or they the invoices have the same product being bought etc.
- then the relationship should be established 
+Constraints:it should not give relationship because it belongs to same type of files like amazon invoices etc.
+there should be actual relationship present like the relationship should not be like if files are following 
+the same structure with the product name,original and discounted price , discount percentage then there should 
+not be relationship the relationship should not be like if files  Shares the structure of containing 
+key-value pair.The relationship should be based on the contents and not in the fields or types .
 
 Example of how the relationship should be:
-Scenario:invoice112 file and invoice114 file have the same product  MI Usb Type-C Cable Smartphone.
+Scenario1:invoice112 file and invoice114 file have the same product  MI Usb Type-C Cable Smartphone.
 description should be like Shares the product MI Usb Type-C Cable Smartphone.
    Both files identify the same product.
+Scenario2:invoice112 file and invoice114 file have the product  related to USB
+description should be like Shares similar product of USB is found between the two files
+
  
 Example of how the relationship should not be:Shares the characteristic of analyzing Amazon purchase invoices. 
    Both identify key information like product name, prices, discounts, and customer details.
@@ -314,6 +319,9 @@ Example of how the relationship should not be:Shares the characteristic of analy
 the above scenario are just examples and not the actual relationship. so you should form similar 
 relationships the relationship need not be just on product it can be on the same customer name 
 or same discount pattern etc.
+
+note:if no relationships are found just mention no relationship found and do not 
+compare missing values similarity when comparing
 
 Return valid JSON where each key is a related field name, and its value 
 is an object with:
