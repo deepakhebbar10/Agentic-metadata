@@ -110,13 +110,12 @@ class MetadataDiscoveryAgent(BaseAgent):
         self.prefix = prefix
         self.metadata = {}
 
-    # --- unchanged DB extraction ---
     def extract_db_metadata(self):
         with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
             cur.execute("""
-                SELECT column_name,data_type
+                SELECT column_name, data_type
                 FROM information_schema.columns
-                WHERE table_name='product_reviews';
+                WHERE table_name = 'product_reviews';
             """)
             cols = cur.fetchall()
             cur.execute("SELECT COUNT(*) FROM product_reviews;")
@@ -136,61 +135,91 @@ class MetadataDiscoveryAgent(BaseAgent):
         )
         self.metadata["DB_Insights"] = self.analyze(insight_p)
 
-    # --- PDFs from S3 ---
     def extract_pdf_metadata(self):
+        # load already‐seen keys
+        with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
+            cur.execute("SELECT source FROM metadata_langchain_table;")
+            seen = {r[0] for r in cur.fetchall()}
+
         pdf_meta = []
         for key in list_s3_keys(self.bucket, self.prefix):
-            if key.lower().endswith(".pdf"):
-                data     = load_s3_bytes(self.bucket, key)
-                reader   = fitz.open(stream=io.BytesIO(data), filetype="pdf")
-                full_txt = "".join(reader[i].get_text("text") for i in range(len(reader)))
-                ins = self.analyze(f"Analyze this PDF and provide metadata insights:\n\n{full_txt}")
-                pdf_meta.append({"s3_key": key, "insights": ins})
+            if not key.lower().endswith(".pdf"):
+                continue
+            if key in seen:
+                # skip already processed
+                continue
+
+            data   = load_s3_bytes(self.bucket, key)
+            reader = fitz.open(stream=io.BytesIO(data), filetype="pdf")
+            full_txt = "".join(reader[i].get_text("text") for i in range(len(reader)))
+
+            ins = self.analyze(f"Analyze this PDF and provide metadata insights:\n\n{full_txt}")
+            pdf_meta.append({"source": key, "insights": ins})
+
         self.metadata["PDF_Metadata"] = pdf_meta
 
-    # --- CSVs from S3 ---
     def extract_csv_metadata(self):
+        # load already‐seen keys
+        with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
+            cur.execute("SELECT source FROM metadata_langchain_table;")
+            seen = {r[0] for r in cur.fetchall()}
+
         csv_meta = []
         for key in list_s3_keys(self.bucket, self.prefix):
-            if key.lower().endswith(".csv"):
-                data = load_s3_bytes(self.bucket, key)
-                df   = pd.read_csv(io.BytesIO(data))
-                cols   = df.columns.tolist()
-                dtypes = df.dtypes.apply(lambda x: x.name).to_dict()
-                count  = len(df)
-                sample = df.head(5).to_dict("records")
-                ins = self.analyze(
-                    f"Analyze CSV metadata:\n"
-                    f"Columns={cols}\n"
-                    f"Types={dtypes}\n"
-                    f"Rows={count}\n"
-                    f"Sample={sample}"
-                )
-                csv_meta.append({"s3_key": key, "insights": ins})
+            if not key.lower().endswith(".csv"):
+                continue
+            if key in seen:
+                # skip already processed
+                continue
+
+            data = load_s3_bytes(self.bucket, key)
+            df   = pd.read_csv(io.BytesIO(data))
+            cols   = df.columns.tolist()
+            dtypes = df.dtypes.apply(lambda x: x.name).to_dict()
+            count  = len(df)
+            sample = df.head(5).to_dict("records")
+
+            ins = self.analyze(
+                f"Analyze CSV metadata:\n"
+                f"Columns={cols}\n"
+                f"Types={dtypes}\n"
+                f"Rows={count}\n"
+                f"Sample={sample}"
+            )
+            csv_meta.append({"source": key, "insights": ins})
+
         self.metadata["CSV_Metadata"] = csv_meta
 
-    # --- JSON + DB persistence unchanged ---
     def persist(self):
+        # merge into JSON file
+        on_disk = {}
+        if os.path.exists("metadata.json"):
+            on_disk = json.load(open("metadata.json"))
+        on_disk.update(self.metadata)
         with open("metadata.json","w") as f:
-            json.dump(self.metadata, f, indent=4)
+            json.dump(on_disk, f, indent=4)
+
+        # upsert into Postgres
         with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
             cur.execute("""
                 CREATE TABLE IF NOT EXISTS metadata_langchain_table(
-                    id SERIAL PRIMARY KEY, source TEXT, metadata JSONB
+                    id SERIAL PRIMARY KEY,
+                    source TEXT UNIQUE,
+                    metadata JSONB
                 );
             """)
-            entries = [
+            for src, meta in [
                 ("DB_Columns",  self.metadata["DB_Columns"]),
                 ("DB_Insights", self.metadata["DB_Insights"]),
-            ]
-            for m in self.metadata.get("PDF_Metadata", []):
-                entries.append((m["s3_key"], m))
-            for m in self.metadata.get("CSV_Metadata", []):
-                entries.append((m["s3_key"], m))
-            for src, meta in entries:
+            ] + [(m["source"], m) for m in self.metadata.get("PDF_Metadata", [])] \
+              + [(m["source"], m) for m in self.metadata.get("CSV_Metadata", [])]:
                 cur.execute(
-                    "INSERT INTO metadata_langchain_table(source,metadata) VALUES (%s,%s) "
-                    "ON CONFLICT DO NOTHING;",
+                    """
+                    INSERT INTO metadata_langchain_table(source, metadata)
+                    VALUES (%s, %s)
+                    ON CONFLICT (source) DO UPDATE
+                      SET metadata = EXCLUDED.metadata
+                    """,
                     (src, json.dumps(meta))
                 )
             conn.commit()
@@ -207,42 +236,68 @@ class MetadataEnrichmentAgent(BaseAgent):
     def fetch_raw(self):
         with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
             cur.execute("SELECT source, metadata FROM metadata_langchain_table;")
-            return [{"source":r[0], "metadata":r[1]} for r in cur.fetchall()]
+            return [{"source": r[0], "metadata": r[1]} for r in cur.fetchall()]
+
+    def fetch_already_enriched(self):
+        with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
+            cur.execute("SELECT source FROM metadata_langchain_enriched;")
+            return {r[0] for r in cur.fetchall()}
 
     def enrich_metadata(self):
-        enriched = []
-        for entry in self.fetch_raw():
+        raw_entries = self.fetch_raw()
+        seen_sources = self.fetch_already_enriched()
+
+        new_items = []
+        for entry in raw_entries:
+            src = entry["source"]
+            if src in seen_sources:
+                continue  # skip already enriched
+
             prompt = (
                 f"Given the following metadata field: {entry['metadata']}\n"
                 f"- Generate a meaningful description.\n"
-                f"- Identify its semantic category (e.g., \"Price\", \"Review Data\").\n"
+                f"- Identify its semantic category (e.g., \"Price\", \"Review Data\", \"Product Details\").\n"
                 f"- Suggest any missing values.\n"
             )
             desc = self.analyze(prompt)
-            enriched.append({
-                "source": entry["source"],
+            new_items.append({
+                "source": src,
                 "original": entry["metadata"],
                 "description": desc
             })
-        self.metadata = {"Enriched": enriched}
-        with open("metadata_langchain_enriched.json","w") as f:
+
+        # Merge into JSON on disk
+        enriched_path = "metadata_langchain_enriched.json"
+        existing = {}
+        if os.path.exists(enriched_path):
+            existing = json.load(open(enriched_path))
+        all_enriched = existing.get("Enriched", []) + new_items
+        self.metadata = {"Enriched": all_enriched}
+        with open(enriched_path, "w") as f:
             json.dump(self.metadata, f, indent=4)
+
+        # Upsert into Postgres
         with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
             cur.execute("""
                 CREATE TABLE IF NOT EXISTS metadata_langchain_enriched(
                     id SERIAL PRIMARY KEY,
-                    source TEXT,
+                    source TEXT UNIQUE,
                     original_metadata JSONB,
                     enriched_description TEXT
                 );
             """)
-            for item in enriched:
+            for item in new_items:
                 cur.execute(
-                    "INSERT INTO metadata_langchain_enriched(source,original_metadata,enriched_description) "
-                    "VALUES (%s,%s,%s) ON CONFLICT DO NOTHING;",
+                    """
+                    INSERT INTO metadata_langchain_enriched
+                      (source, original_metadata, enriched_description)
+                    VALUES (%s, %s, %s)
+                    ON CONFLICT (source) DO NOTHING;
+                    """,
                     (item["source"], json.dumps(item["original"]), item["description"])
                 )
             conn.commit()
+
         return self.metadata
 
 # ── Relationship Discovery (unchanged) ─────────────────────────────────────────
