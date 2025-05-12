@@ -159,7 +159,7 @@ class MetadataDiscoveryAgent(BaseAgent):
         self.metadata["PDF_Metadata"] = pdf_meta
 
     def extract_csv_metadata(self):
-        # load already‐seen keys
+        # 1️⃣ load already‐seen keys so we skip them early
         with psycopg2.connect(SYNC_DB_URI) as conn, conn.cursor() as cur:
             cur.execute("SELECT source FROM metadata_langchain_table;")
             seen = {r[0] for r in cur.fetchall()}
@@ -169,22 +169,21 @@ class MetadataDiscoveryAgent(BaseAgent):
             if not key.lower().endswith(".csv"):
                 continue
             if key in seen:
-                # skip already processed
-                continue
+                continue  # already processed
 
+            # 2️⃣ pull the CSV bytes & make a DataFrame
             data = load_s3_bytes(self.bucket, key)
             df   = pd.read_csv(io.BytesIO(data))
-            cols   = df.columns.tolist()
-            dtypes = df.dtypes.apply(lambda x: x.name).to_dict()
-            count  = len(df)
-            sample = df.head(5).to_dict("records")
 
+            # 3️⃣ convert the full CSV (or a chunk) into text
+            csv_text = df.to_csv(index=False)
+            if len(csv_text) > 50000:
+                csv_text = csv_text[:50000] + "\n…(truncated)…"
+
+            # 4️⃣ ask the LLM to analyze the *content*
             ins = self.analyze(
-                f"Analyze CSV metadata:\n"
-                f"Columns={cols}\n"
-                f"Types={dtypes}\n"
-                f"Rows={count}\n"
-                f"Sample={sample}"
+                "Analyze the following CSV data and provide key metadata insights:\n\n"
+                f"{csv_text}"
             )
             csv_meta.append({"source": key, "insights": ins})
 
