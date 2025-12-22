@@ -557,6 +557,25 @@ class MetadataEnrichmentAgent(BaseAgent):
             )
         conn.commit()
 
+     # Save to JSON file
+     enriched_file = "metadata_langchain_enriched.json"
+     on_disk = {}
+     if os.path.exists(enriched_file):
+         with open(enriched_file, "r", encoding="utf-8") as f:
+             on_disk = json.load(f)
+     
+     # Update with new enriched items
+     for item in new_items:
+         on_disk[item["source"]] = {
+             "original_metadata": item["original"],
+             "enriched_description": item["description"]
+         }
+     
+     with open(enriched_file, "w", encoding="utf-8") as f:
+         json.dump(on_disk, f, indent=4, ensure_ascii=False)
+     
+     print(f"✅ Saved {len(new_items)} enriched metadata entries to {enriched_file}")
+
      return {"Enriched": new_items}
 
 
